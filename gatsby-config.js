@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `JunkesBlog`,
+    title: `Henrique Junkes`,
     author: {
       name: `Henrique Junkes`,
       summary: `who lives and works in San Francisco building useful things.`,
@@ -60,11 +60,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `JunkesBlog`,
+        name: `Henrique Junkes`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#000`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
