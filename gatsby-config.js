@@ -74,6 +74,25 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+        color: `#FFF`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto`,
+            variants: [`400`, `500`, `700`]
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#FFF`,
+        showSpinner: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

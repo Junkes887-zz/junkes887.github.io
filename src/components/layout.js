@@ -12,8 +12,10 @@ const Layout = ({ location, title, children }) => {
       <h1
         style={{
           ...scale(1.5),
+          fontFamily: `'Roboto', sans-serif, bold`,
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          color: '#FFF',
         }}
       >
         <Link
@@ -31,8 +33,9 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
+          fontFamily: `'Roboto', sans-serif, bold`,
           marginTop: 0,
+          color: '#FFF',
         }}
       >
         <Link
@@ -54,6 +57,7 @@ const Layout = ({ location, title, children }) => {
         marginRight: `auto`,
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        backgroundColor: '#212121',
       }}
     >
       <header>{header}</header>
