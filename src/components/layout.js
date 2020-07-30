@@ -13,13 +13,12 @@ const Layout = ({ location, title, children }) => {
         style={{
           ...scale(1.5),
           fontFamily: `'Roboto', sans-serif, bold`,
-          color: '#FFF',
         }}
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
+            color: `#50fa7b`,
           }}
           to={`/`}
         >
@@ -32,13 +31,12 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           fontFamily: `'Roboto', sans-serif, bold`,
-          color: '#FFF',
         }}
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
+            color: '#50fa7b',
           }}
           to={`/`}
         >

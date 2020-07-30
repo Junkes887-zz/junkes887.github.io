@@ -12,6 +12,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext
 
   return (
+    <div style={{
+      backgroundColor:'#282a36',
+    }}>
     <Layout location={location} title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
@@ -21,7 +24,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1
             style={{
-              color: '#FFF',
+              color: '#ff8b10',
             }}
           >
             {post.frontmatter.title}
@@ -30,7 +33,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             style={{
               ...scale(-1 / 5),
               display: `block`,
-              color: '#FFF',
+              color: '#ebff00',
             }}
           >
             {post.frontmatter.date}
@@ -55,14 +58,20 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link style={{
+                color: '#ff8b10',
+              }}
+              to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link style={{
+                color: '#ff8b10',
+              }}
+              to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
@@ -70,6 +79,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
     </Layout>
+    </div>
   )
 }
 
