@@ -13,8 +13,6 @@ const Layout = ({ location, title, children }) => {
         style={{
           ...scale(1.5),
           fontFamily: `'Roboto', sans-serif, bold`,
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
           color: '#FFF',
         }}
       >
@@ -34,7 +32,6 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           fontFamily: `'Roboto', sans-serif, bold`,
-          marginTop: 0,
           color: '#FFF',
         }}
       >
@@ -57,7 +54,7 @@ const Layout = ({ location, title, children }) => {
         marginRight: `auto`,
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        backgroundColor: '#212121',
+        backgroundColor: 'rgba(0%,0%,0%,0.3)',
       }}
     >
       <header>{header}</header>

@@ -11,6 +11,9 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
+    <div style={{
+      backgroundColor:'#121212',
+    }}>
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       {/* <Bio /> */}
@@ -19,11 +22,7 @@ const BlogIndex = ({ data, location }) => {
         return (
           <article key={node.fields.slug}>
             <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
+              <h3>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
@@ -41,6 +40,7 @@ const BlogIndex = ({ data, location }) => {
         )
       })}
     </Layout>
+    </div>
   )
 }
 
