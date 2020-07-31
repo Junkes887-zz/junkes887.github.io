@@ -49,11 +49,24 @@ footer {
     color: #ebff00;
 }
 
-.container {
-    background-color:#282a36;
-}
-
 .title {
     box-shadow: none;
     color: #02e63c;
+    text-align: center;
 }
+
+.back {
+    margin-top: -0.5rem;
+}
+
+.container {
+    background-color:#282a36;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .container {
+        padding: 5px;
+    }
+}    

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FiArrowLeft } from 'react-icons/fi'
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -11,7 +12,7 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
+      <h1 className={style.title}
         style={{
           ...scale(1.5),
         }}
@@ -24,10 +25,10 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <h3>
+      <h3 className={style.back}>
         <Link className={style.title} to={`/`}
         >
-          {title}
+          <FiArrowLeft />
         </Link>
       </h3>
     )
@@ -40,6 +41,7 @@ const Layout = ({ location, title, children }) => {
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         backgroundColor: 'rgba(0%,0%,0%,0.3)',
+        borderRadius: `15px`
       }}
     >
       <header>{header}</header>
