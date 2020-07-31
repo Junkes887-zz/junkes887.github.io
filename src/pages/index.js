@@ -6,40 +6,30 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+import style from '../styles/global.module.css'
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <div style={{
-      backgroundColor:'#282a36',
-    }}>
+    <div className={style.container}>
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      {/* <Bio /> */}
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <article key={node.fields.slug}>
             <header>
               <h3>
-                <Link style={{ 
-                  boxShadow: `none`,
-                  color: '#ff8b10',
-                }} to={node.fields.slug}>
+                <Link to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small style={{
-                color: '#ebff00',
-              }}>{node.frontmatter.date}</small>
+              <small>{node.frontmatter.date}</small>
             </header>
             <section>
-              <p
-                style={{
-                  color: '#FFF',
-                }}
-                dangerouslySetInnerHTML={{
+              <p dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
               />

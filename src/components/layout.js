@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import style from '../styles/global.module.css'
+
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
@@ -12,15 +14,9 @@ const Layout = ({ location, title, children }) => {
       <h1
         style={{
           ...scale(1.5),
-          fontFamily: `'Roboto', sans-serif, bold`,
         }}
       >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: `#50fa7b`,
-          }}
-          to={`/`}
+        <Link to={`/`}
         >
           {title}
         </Link>
@@ -28,17 +24,8 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <h3
-        style={{
-          fontFamily: `'Roboto', sans-serif, bold`,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: '#50fa7b',
-          }}
-          to={`/`}
+      <h3>
+        <Link className={style.title} to={`/`}
         >
           {title}
         </Link>
@@ -58,9 +45,11 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © 2020, Built with
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a style={{
+          boxShadow: 0
+        }} href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
   )

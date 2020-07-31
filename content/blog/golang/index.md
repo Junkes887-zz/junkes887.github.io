@@ -1,7 +1,7 @@
 ---
 title: Golang
 date: "2019-07-28T22:12:03.284Z"
-description: "Motivos que me fiseram aprender sobre "
+description: "Motivos que me fizeram aprender sobre."
 ---
 
 ![alt text](./img01.png)
