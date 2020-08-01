@@ -47,12 +47,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -90,6 +84,16 @@ module.exports = {
       options: {
         color: `#FFF`,
         showSpinner: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-168877426-1",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
