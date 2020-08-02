@@ -3,6 +3,16 @@ p {
     color: #FFF;
 }
 
+h2 {
+    box-shadow: none;
+    color: #02e63c;
+}
+
+h3 {
+    box-shadow: none;
+    color: #ff79c6;
+}
+
 section {
     color: #FFF;
 }
