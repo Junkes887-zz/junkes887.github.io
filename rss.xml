@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Henrique Junkes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Aug 2020 00:07:30 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Olá 👋 Meu nome é Henrique Alves Junkes, tenho 18 anos e moro em Nova Veneza. Trabalho na Betha Sistemas como programador FullStack. Github…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/about/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/about/</guid><pubDate>Fri, 28 Aug 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Olá 👋&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Henrique Junkes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Aug 2020 23:46:48 GMT</lastBuildDate><item><title><![CDATA[Séries]]></title><description><![CDATA[Minhas séries favoritas. Got A série é sobre a disputa entre famílias pelo controle dos Sete Reinos e o Trono de ferro. É a melhor série que…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/series/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/series/</guid><pubDate>Mon, 17 Aug 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Minhas séries favoritas.&lt;/h2&gt;
+&lt;h3&gt;Got&lt;/h3&gt;
+&lt;p&gt;A série é sobre a disputa entre famílias pelo controle dos Sete Reinos e o Trono de ferro.&lt;/p&gt;
+&lt;p&gt;É a melhor série que eu já vi na minha opinião, gosto das políticas e discussões que a série tem, e pelo mundo cheio de mistérios e criaturas.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/15af989e206ad500252c9728f47fb58f/0f98f/got.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAf/aAAwDAQACEAMQAAAB5szqgkW3/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECAxMR/9oACAEBAAEFApySKrNPpIkc58co/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAIDAAAAAAAAAAAAAAAAAAEQESAx/9oACAEBAAY/ApJpi//EABoQAQEAAwEBAAAAAAAAAAAAAAEAESExgcH/2gAIAQEAAT8hG4rQjNjDAexJuXH3A4X/2gAMAwEAAgADAAAAEN/f/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAEDAQE/EMqH/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxDVy//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExUXFh/9oACAEBAAE/EGIM4QkLbleIZgJeqYzBZ7Et0u669iYUld/Wf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;alt text&quot;
+        src=&quot;/static/15af989e206ad500252c9728f47fb58f/1c72d/got.jpg&quot;
+        srcset=&quot;/static/15af989e206ad500252c9728f47fb58f/a80bd/got.jpg 148w,
+/static/15af989e206ad500252c9728f47fb58f/1c91a/got.jpg 295w,
+/static/15af989e206ad500252c9728f47fb58f/1c72d/got.jpg 590w,
+/static/15af989e206ad500252c9728f47fb58f/a8a14/got.jpg 885w,
+/static/15af989e206ad500252c9728f47fb58f/fbd2c/got.jpg 1180w,
+/static/15af989e206ad500252c9728f47fb58f/0f98f/got.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Rick and Morty&lt;/h3&gt;
+&lt;p&gt;É um desenho animado sobre viagem no tempo-espaço e por universos paralelos, com o cientista louco e seu neto.&lt;/p&gt;
+&lt;p&gt;Acho essa série muito engraçada, o jeito que ela trata alguns problemas,
+e o desenrolar das histórias.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dc531e476d313237c281e970d901c703/e5166/rick-and-morty.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBP/EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAAHfSs0kQVf/xAAaEAACAgMAAAAAAAAAAAAAAAAAAQMSESEy/9oACAEBAAEFArVLYQltEnX/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQIRUf/aAAgBAwEBPwGWiSo//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAIhARH/2gAIAQIBAT8BWQZc6f/EABgQAQADAQAAAAAAAAAAAAAAABEAASAx/9oACAEBAAY/AjrEvP8A/8QAGxAAAgMBAQEAAAAAAAAAAAAAAAERIUExUWH/2gAIAQEAAT8hSGNZnlESNra+FF6jp3h1P//aAAwDAQACAAMAAAAQk8//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QkyH/xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPxAkLSt//8QAGxABAAMBAQEBAAAAAAAAAAAAAQARMSGBUWH/2gAIAQEAAT8QWOrcq8l3y3g0PkU2C/bcTyADUBB+RLcmzr+kLs4T/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;alt text&quot;
+        src=&quot;/static/dc531e476d313237c281e970d901c703/1c72d/rick-and-morty.jpg&quot;
+        srcset=&quot;/static/dc531e476d313237c281e970d901c703/a80bd/rick-and-morty.jpg 148w,
+/static/dc531e476d313237c281e970d901c703/1c91a/rick-and-morty.jpg 295w,
+/static/dc531e476d313237c281e970d901c703/1c72d/rick-and-morty.jpg 590w,
+/static/dc531e476d313237c281e970d901c703/a8a14/rick-and-morty.jpg 885w,
+/static/dc531e476d313237c281e970d901c703/fbd2c/rick-and-morty.jpg 1180w,
+/static/dc531e476d313237c281e970d901c703/e5166/rick-and-morty.jpg 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Mr. Robot&lt;/h3&gt;
+&lt;p&gt;É sobre um hacker chamado Elliot que tem múltiplas personalidades, e tenta acabar com os problemas da sociedade.&lt;/p&gt;
+&lt;p&gt;O que eu achei legal nessa série foi o jeito que o conteúdo técnico foi tratado, muito parecido com a realidade, sem ter aquele hack viajado que não condiz nada com a realidade,  que na minha opinião é muito bom.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2170e7cdac6c4422695f032500851d3c/eea4a/mr-robot.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGKaZRqIP/EABoQAAICAwAAAAAAAAAAAAAAAAABAhEDEBL/2gAIAQEAAQUCxt1KTR0Xpuj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAABIQARIP/aAAgBAQAGPwJMmO8//8QAGxABAAICAwAAAAAAAAAAAAAAAQBRETEQIWH/2gAIAQEAAT8hG1ei50GxuNCCBB3wiwOCf//aAAwDAQACAAMAAAAQeB//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxCI/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAECAQE/EBF//8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBYVH/2gAIAQEAAT8Qr8rEGDr1riDKXTmp7hBwOgrLjSApZ9qKrqtt7CjgMCf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;alt text&quot;
+        src=&quot;/static/2170e7cdac6c4422695f032500851d3c/1c72d/mr-robot.jpg&quot;
+        srcset=&quot;/static/2170e7cdac6c4422695f032500851d3c/a80bd/mr-robot.jpg 148w,
+/static/2170e7cdac6c4422695f032500851d3c/1c91a/mr-robot.jpg 295w,
+/static/2170e7cdac6c4422695f032500851d3c/1c72d/mr-robot.jpg 590w,
+/static/2170e7cdac6c4422695f032500851d3c/a8a14/mr-robot.jpg 885w,
+/static/2170e7cdac6c4422695f032500851d3c/fbd2c/mr-robot.jpg 1180w,
+/static/2170e7cdac6c4422695f032500851d3c/eea4a/mr-robot.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[Olá 👋 Meu nome é Henrique Alves Junkes, tenho 18 anos e moro em Nova Veneza. Trabalho na Betha Sistemas como programador FullStack. Github…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/about/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/about/</guid><pubDate>Sat, 01 Aug 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Olá 👋&lt;/h2&gt;
 &lt;p&gt;Meu nome é Henrique Alves Junkes, tenho 18 anos e moro em Nova Veneza.&lt;/p&gt;
 &lt;p&gt;Trabalho na &lt;a href=&quot;http://www.betha.com.br/&quot;&gt;Betha Sistemas&lt;/a&gt; como programador FullStack.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Junkes887&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/-Github-000?style=for-the-badge&amp;#x26;logo=Github&amp;#x26;logoColor=white&amp;#x26;link=https://github.com/Junkes887&quot; alt=&quot;Github Badge&quot;&gt;&lt;/a&gt;
