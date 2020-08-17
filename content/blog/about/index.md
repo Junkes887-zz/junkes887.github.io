@@ -1,6 +1,6 @@
 ---
 title: About
-date: "2020-08-28T22:12:03.284Z"
+date: "2020-08-01T22:12:03.284Z"
 description: "Sobre mim."
 ---
 ## Olá 👋
