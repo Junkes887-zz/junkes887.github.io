@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 // import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
 
 import style from '../styles/global.module.css'
 
@@ -22,9 +23,7 @@ const BlogIndex = ({ data, location }) => {
             <article key={node.fields.slug}>
               <header>
                 <h3>
-                  {/* <Link to={node.fields.slug}> */}
-                    {title}
-                  {/* </Link> */}
+                  {title}
                 </h3>
                 <small>{node.frontmatter.date}</small>
               </header>
